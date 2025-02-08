@@ -1,4 +1,5 @@
 """Sample service."""
+import os
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -7,4 +8,4 @@ app = FastAPI()
 def index():
     """Index endpoint."""
 
-    return {"message": "Hello World"}
+    return {"message": os.environ.get("FOO", "")}
