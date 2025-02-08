@@ -15,5 +15,3 @@ spec:
         - name: sample-service-container
           image: sample_service
           imagePullPolicy: Never
-          ports:
-            - containerPort: 8080
