@@ -1,17 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sample-service
+  name: dummy-app-deployment
 spec:
+  replicas: 3
   selector:
     matchLabels:
-      app: sample-service
+      app: dummy-app
   template:
     metadata:
       labels:
-        app: sample-service
+        app: dummy-app
     spec:
       containers:
-        - name: sample-service-container
-          image: sample_service
+        - name: dummy-app-container
+          image: dummy-app
           imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
