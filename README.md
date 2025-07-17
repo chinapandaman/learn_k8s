@@ -2,11 +2,11 @@
 # ✅ CKA Certification Checklist (Minikube Edition)
 
 ## 📁 1. Cluster Architecture
-- [ ] Understand control plane components (`kube-apiserver`, `kube-controller-manager`, `scheduler`, `etcd`)
-- [ ] Identify node components (`kubelet`, `kube-proxy`, container runtime)
-- [ ] Inspect components with `kubectl get componentstatuses`
-- [ ] SSH into Minikube and inspect kube processes (`minikube ssh`, `ps aux | grep kube`)
-- [ ] Use `kubectl describe node` to understand node roles and status
+- [x] Understand control plane components (`kube-apiserver`, `kube-controller-manager`, `scheduler`, `etcd`)
+- [x] Identify node components (`kubelet`, `kube-proxy`, container runtime)
+- [x] Inspect components with `kubectl get componentstatuses`
+- [x] SSH into Minikube and inspect kube processes (`minikube ssh`, `ps aux | grep kube`)
+- [x] Use `kubectl describe node` to understand node roles and status
 
 ---
 
