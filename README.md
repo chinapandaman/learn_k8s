@@ -11,8 +11,8 @@
 ---
 
 ## 🔐 2. Security
-- [ ] Create and use ServiceAccounts
-- [ ] Create Roles and RoleBindings
+- [x] Create and use ServiceAccounts
+- [x] Create Roles and RoleBindings
 - [ ] Create ClusterRoles and ClusterRoleBindings
 - [ ] Create and mount Secrets into Pods
 - [ ] Encode/decode secrets with `base64`
